@@ -1,0 +1,18 @@
+.jumbotron div h2 {
+    font-weight: 500;
+    color: teal;
+    padding-top: 40px !important;
+}
+.jumbotron{
+    background-color: lightgreen;
+    height: 200px !important;
+    border: 5px solid white;
+    border-radius: 20px 20px;
+}
+ 
+.navbar div h2{
+    color: gold;
+    letter-spacing: 4px;
+    font-weight: bold;
+    text-shadow: 3px 3px 2px  red;
+}

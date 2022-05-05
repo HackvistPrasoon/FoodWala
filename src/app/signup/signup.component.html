@@ -1,0 +1,36 @@
+<div class="container "> 
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+  <div class="text-center">
+    <h1>Restaurent Signup</h1>
+    <h5>❤️ Get Free Membership ❤️</h5>
+    <hr>
+  </div>
+  
+  <form [formGroup]="formsignupvalue" >
+      <div class="mb-3">
+        <label for="exampleInputEmail1">Name</label>
+        <input type="text" formControlName="name" class="form-control" id="exampleInputName" aria-describedby="emailHelp" placeholder="Enter Name">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1">Mobile Number</label>
+        <input type="email" formControlName="phone" class="form-control" id="exampleInputphone" aria-describedby="emailHelp" placeholder="Enter Mobile">
+      </div>
+      <div class="mb-3">
+        <label for="exampleInputEmail1">Email address</label>
+        <input type="email" formControlName="mail" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      </div>
+      <div class="mb-3 ">
+        <label for="exampleInputPassword1">Password</label>
+        <input type="password"  formControlName="password"  class="form-control" id="exampleInputPassword1" placeholder="Password">
+      </div>
+      <button  (click)="signupsubmit()"  class="btn btn-primary">Submit</button>
+      <br>
+      <a routerLink="/login">already member ? click for Sign In</a>
+    </form>
+  </div>
+  </div>
+  </div>
+  </div>
+  

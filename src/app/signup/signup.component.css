@@ -1,0 +1,14 @@
+.card{
+    margin-top: 10px;
+    border: 2px solid blue;
+    width: 550px;
+    position: absolute;
+    top: 10%;
+    left: 35%;
+}
+form, div{
+   padding: 8px;
+}
+button{
+   margin-left: 40%;
+}
